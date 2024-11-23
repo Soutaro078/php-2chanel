@@ -6,7 +6,6 @@ $comment_array = array();
 $dbh = null;
 $stmt = null;
 $error_message = array();
-
 require 'vendor/autoload.php';
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
